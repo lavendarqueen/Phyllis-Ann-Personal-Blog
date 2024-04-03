@@ -6,3 +6,30 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+formHeader {
+  color: #27173a;
+  background: #af9cc4;
+}
+
+form {
+  color: #27173a;
+}
+
+#submit {
+  color: #af9cc4;
+  background: #27173a;
+  font-weight: bold;
+  font-size: 2rem;
+  border: 2px solid white;
+}
+
+#submit:hover {
+  border: 2px solid #27173a;
+  background: #af9cc4;
+  color: #27173a;
+}
+
+h4 {
+  color: #27173a;
+}

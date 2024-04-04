@@ -3,8 +3,9 @@ function myFunction() {
   element.classList.toggle("dark/light-mode");
 }
 
-const backButton = document.querySelector("#back");
-const mainEl = documents.getElementById(blogContent);
+const backButton = document.querySelector("#backButton");
+const postArea = document.getElementById("postArea");
+const blogContent = document.getElementById("blogContent");
 
 backButton.addEventListener("click", function (event) {
   event.preventDefault();

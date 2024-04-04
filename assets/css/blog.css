@@ -25,7 +25,7 @@ body.dark {
   justify-content: space-between;
 }
 
-#leftButton {
+#backButton {
   /* align-items: center; */
   text-align: center;
   border: 2px solid white;
@@ -37,18 +37,18 @@ body.dark {
   font-size: 2rem;
 }
 
-#leftButton:hover {
+#backButton:hover {
   border: 2px solid #27173a;
   background: #af9cc4;
   color: #27173a;
 }
 
-#leftButton {
+/* #backButton {
   align-items: left;
   color: #af9cc4;
   background: #27173a;
   border: 2px solid white;
-}
+} */
 
 .rightButton {
   justify-content: center;

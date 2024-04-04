@@ -6,8 +6,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   min-height: 100vh;
   background-color: #af9cc4;
   display: flex;
@@ -22,13 +20,49 @@ body.dark {
   color: #af9cc4;
 }
 
-button {
-  margin-bottom: 1rem;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftButton {
+  /* align-items: center; */
+  text-align: center;
+  border: 2px solid white;
+  background: #27173a;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  margin: 1rem 1rem 1rem 10rem;
+  color: #af9cc4;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#leftButton:hover {
+  border: 2px solid #27173a;
+  background: #af9cc4;
+  color: #27173a;
+}
+
+#leftButton {
+  align-items: left;
+  color: #af9cc4;
+  background: #27173a;
+  border: 2px solid white;
+}
+
+.rightButton {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-left: 10rem;
 }
 
 .btn {
+  border: 2px solid white;
   color: #af9cc4;
   background: #27173a;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -41,11 +75,13 @@ button {
 .radio-btn {
   width: 150px;
   height: 80px;
+  margin-top: 1rem;
   padding: 10px;
   background-color: #27173a;
   border-radius: 50px;
   cursor: pointer;
   overflow: hidden;
+  border: 2px solid white;
 }
 
 .radio-btn .radio-inner {
@@ -112,13 +148,22 @@ h6 {
   padding: 1rem;
 }
 
+h4 {
+  color: #af9cc4;
+}
+
+footer {
+  color: #27173a;
+  text-align: center;
+}
+
 .display-4 {
   font-size: 1.5rem;
 }
 
 .btn-primary {
-  color: #0d6efd;
-  background-color: white;
+  color: #27173a;
+  background-color: #af9cc4;
 }
 
 @media (min-width: 768px) {
@@ -204,8 +249,4 @@ h6 {
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
-}
-
-#designedBy {
-  color: #27173a;
 }

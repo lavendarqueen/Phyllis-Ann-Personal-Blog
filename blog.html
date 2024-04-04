@@ -11,25 +11,25 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/blog.css" />
-
     <title>Phyllis Ann's BlogPost Spot</title>
   </head>
   <body>
-    <header>
-      <div>
-      <button type="button" class="btn btn-lg btn-outline px-4 py-6" href="#backButton">Back</button>        
-      </div>
-      <div class="radio-btn">
-      <div class="radio-inner"></div>
-              <img
-          src="./assets/images/lightMode.png"
-          id="theme-switcher"
-        />
+    <header id="header">
+      <a href="./index.html"> 
+        <button type="button" id="backButton"  class="btn btn-primary mr-2">  
+          Back</button>
+         </a>        
+        <div class="radio-btn">
+          <div class="radio-inner">
+              <a href="#lightMode.png" id="theme-switcher" class="rightButton">
+              </a>
+          </div>
+        </div>
     </header>
-<main class="container">
+    <main class="container">
       <div id="postArea" class="p-5 p-md-5 mb-4 rounded">
         <div class="col-md-7 px-0">
-          <h1 class="display-8 fst-italic">Blog Till You Drop!</h1>
+          <h1 href=#submit" class="display-8 fst-italic">Blog Till You Drop!</h1>
           <p class="lead my-6 fw-bold">
             User Name
           </p>
@@ -39,24 +39,16 @@
       </div>
     </div>
     <footer>
-      <h4 id="designedBy" class="text-center" >Designed with 💜 by Phyllis Ann Lataille</h4>
-      <p>
-        <a href="https://lavendarqueen.github.io/Portfolio/"></a>
-      </p>
+      <div>
+      <h4 id="designedBy" class="text-center text-white">Designed with 💜 by Phyllis Ann Lataille</h4>      
+        <a href="https://lavendarqueen.github.io/Portfolio/">Click here to visit my GitHub page</a>
+      </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-1VDDWMRSTH"
     ></script>
-    <!-- <script>
-      $(document).ready(function () {
-        $(".radio-btn").on("click", function () {
-          $(".radio-inner").toggleClass("active");
-          $("body").toggleClass("dark");
-        });
-      });
-    </script> -->
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/blog.js"></script>
     <script src="./assets/js/form.js"></script>

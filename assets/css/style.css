@@ -7,13 +7,24 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-formHeader {
+#formHeader {
   color: #27173a;
+  font-weight: bold;
   background: #af9cc4;
+  text-decoration: none;
 }
 
-form {
+.lead {
   color: #27173a;
+}
+
+div .p-4 {
+  color: #27173a;
+}
+
+form-label {
+  color: #27173a;
+  font-weight: bold;
 }
 
 #submit {
@@ -31,5 +42,9 @@ form {
 }
 
 h4 {
-  color: #27173a;
+  color: white;
+}
+
+.blog-footer {
+  background: #af9cc4;
 }

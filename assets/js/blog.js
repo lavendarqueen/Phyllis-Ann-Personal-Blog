@@ -20,7 +20,7 @@ function addElement() {
   const newDiv = document.createElement("div");
 
   // and give it some content
-  const newContent = document.createTextNode("Hi there and greetings!");
+  const newContent = document.createTextNode("Blog till you drop!");
 
   // add the text node to the newly created div
   newDiv.appendChild(newContent);

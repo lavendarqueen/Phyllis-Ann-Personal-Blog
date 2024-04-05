@@ -26,7 +26,7 @@ blogPostButton.addEventListener("submit", function (event) {
   } else {
     localStorage.setItem("newPost", JSON.stringify(newBlogPost));
     // window.location.href =
-      // "https://lavendarqueen.github.io/Phyllis-Ann-Personal-Blog/blog.html";
+    // "https://lavendarqueen.github.io/Phyllis-Ann-Personal-Blog/blog.html";
     window.location.href = "blog.html";
   }
 });

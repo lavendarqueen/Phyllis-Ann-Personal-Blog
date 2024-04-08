@@ -9,8 +9,6 @@ const blogContent = document.getElementById("blogContent");
 
 backButton.addEventListener("click", function (event) {
   event.preventDefault();
-  window.location.href =
-    "https://github.com/lavendarqueen/Phyllis-Ann-Personal-Blog";
 });
 
 document.body.onload = addElement;

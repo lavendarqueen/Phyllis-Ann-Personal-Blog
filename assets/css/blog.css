@@ -43,13 +43,6 @@ body.dark {
   color: #27173a;
 }
 
-/* #backButton {
-  align-items: left;
-  color: #af9cc4;
-  background: #27173a;
-  border: 2px solid white;
-} */
-
 .rightButton {
   display: inline;
   justify-content: center;

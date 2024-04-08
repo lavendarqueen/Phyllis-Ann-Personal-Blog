@@ -9,6 +9,8 @@ const blogContent = document.getElementById("blogContent");
 
 backButton.addEventListener("click", function (event) {
   event.preventDefault();
+
+  window.location.href = "index.html";
 });
 
 document.body.onload = addElement;

@@ -48,3 +48,9 @@ h4 {
 .blog-footer {
   background: #af9cc4;
 }
+
+.currentDiv {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}

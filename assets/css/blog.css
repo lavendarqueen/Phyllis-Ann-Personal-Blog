@@ -23,11 +23,11 @@ body.dark {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items:  ;
+  align-items: center;
 }
 
 #backButton {
-position: relative;
+  position: relative;
   text-align: center;
   border: 2px solid white;
   background: #27173a;

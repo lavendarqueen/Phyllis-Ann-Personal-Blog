@@ -23,8 +23,8 @@ body.dark {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: auto;
+  /* align-items: center; */
+  width: 100%;
 }
 
 #backButton {
@@ -33,7 +33,7 @@ body.dark {
   border: 2px solid white;
   background: #27173a;
   padding: 0.8rem 2rem 0.8rem 2rem;
-  margin: 1rem 1rem 1rem 10rem;
+  margin-top: 3rem;
   color: #af9cc4;
   font-weight: bold;
   font-size: 2rem;
@@ -136,7 +136,11 @@ h6 {
 h5 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+.container {
+  margin-left: 6rem;
+  margin-right: 6rem;
 }
 .card {
   display: flex;

@@ -3,8 +3,9 @@
 ## Description
 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+A personal blog page to allow users to input and respond to blog posts througth a user interface that collects the user's username, blog post title and their blog post.
 
-- What was your motivation?
+- Motivation: This type of page is a useful tool for communicating ideas, 
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
 - What did you learn?

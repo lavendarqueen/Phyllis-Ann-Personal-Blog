@@ -24,6 +24,7 @@ body.dark {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 
 #backButton {
@@ -132,11 +133,20 @@ h6 {
     serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
 
-#postArea {
+h5 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   border: 0.3em solid white;
   background: #27173a;
   color: #af9cc4;
+  height: auto;
+  width: auto;
   margin-top: 1rem;
   padding: 1rem;
 }

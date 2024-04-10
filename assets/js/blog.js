@@ -33,11 +33,11 @@ function addElement() {
 
   // add the newly created element and its content into the DOM
   const currentDiv = document.createElement("div");
-  currentDiv.setAttribute("class", "currentDiv")
+  currentDiv.setAttribute("class", "currentDiv");
 
-  for(let i = 0; i < myBlog.length; i++) {
+  for (let i = 0; i < myBlog.length; i++) {
     let cardEl = `
-      <div class="card m-5" style="width: 12rem;">
+      <div class="card">
           <div class="card-body">
             <h5 class="card-title">Title: ${myBlog[i].title}</h5>
             <p class="card-text">User Name: ${myBlog[i].userName}</p>
@@ -46,11 +46,10 @@ function addElement() {
         </div>
     `;
     let htmDiv = document.createElement("section");
-    htmDiv.innerHTML = cardEl
-    currentDiv.appendChild(htmDiv)
+    htmDiv.innerHTML = cardEl;
+    currentDiv.appendChild(htmDiv);
   }
 
   postArea.appendChild(newDiv);
   postArea.appendChild(currentDiv);
 }
-//addElement()

@@ -9,20 +9,13 @@ A personal blog page with light/dark mode and a back button that allows users to
 - What problem does it solve? My personal blog can connect me with other web developers when I have a problem I'm not sure how to resolve.
 - What did you learn? I learned about blogging, as well as how to write JavaScript functions to insert html code into a document when a user posts a comment, and to manage styling on a Bootstrap framework.
 
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 When a user opens the landing page, they find a user interface form to complete with their blog title, user name, and their blog comment. If they fail to complete all the items on the form before clicking on the submit button, they receive an alert instructing them to complete the form in order to post their comment. When the form is properly completed clicking on the submit button will bring them to the blog page where their blog post has been added to an array of blog posts, which they can read and respond to. Once on the blog page, a user can toggle from light mode to dark mode or click on the back button to leave another blog post.
 
 ## Usage
 
-1. When the landing page has loaded, complete the form fields provided to enter your user name, blog title, and blog comment. 
+1. When the landing page has loaded, complete the form fields provided to enter your user name, blog title, and blog comment.
 
 2. Click the submit button to post your comment and you will be directed to the blog page, where you can review your post and others.
 
@@ -32,12 +25,10 @@ When a user opens the landing page, they find a user interface form to complete 
 
 Please click the links below for screen shots of these pages:
 
-
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](assets/images/landingPage.jpg)
+    ![alt text](assets/images/blogPageLightMode.jpg)
+    ![alt text](assets/images/blogPageDarkMode.jpg)
     ```
 
 ## Credits
@@ -50,27 +41,24 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
+Copyright (c) 2024 Phyllis Ann Lataille
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Badges
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-A GitHub profile with consistently high-quality README files is sure to help you stand
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

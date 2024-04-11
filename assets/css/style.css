@@ -7,7 +7,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#formHeader {
+/* #formHeader {
   color: #27173a;
   font-weight: bold;
   background: #af9cc4;
@@ -39,7 +39,7 @@ form-label {
   border: 2px solid #27173a;
   background: #af9cc4;
   color: #27173a;
-}
+} */
 
 h4 {
   color: white;

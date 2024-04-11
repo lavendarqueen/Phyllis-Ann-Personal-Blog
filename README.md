@@ -4,9 +4,9 @@
 
 A personal blog page with light/dark mode and a back button that allows users to read and write blog posts through a user interface that collects the user's username, blog post title and their blog posts.
 
-- Motivation: This type of page is a useful tool for communicating ideas and networking with others with similar interests.
+- Motivation: I felt that type of page is a useful tool for communicating ideas and networking with others with similar interests.
 - Why did you build this project? Building this blog page was an educational experience, both in learning how to code such a document, but also in learning about the benefits of having a blog page.
-- What problem does it solve? My personal blog can connect me with other web developers when I have a problem I'm not sure how to resolve.
+- What problem does it solve? My personal blog can connect me with other web developers, who I can learn from and consult when I have a problem I'm uncertain of the resolution.
 - What did you learn? I learned about blogging, as well as how to write JavaScript functions to insert html code into a document when a user posts a comment, and to manage styling on a Bootstrap framework.
 
 ## Installation
@@ -33,11 +33,25 @@ Please click the links below for screen shots of these pages:
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+I collaborated with Melissa Cade, Dennis Itua, Brandon Leek, and Benjamin Machock.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+I consulted Bootstrap Docs for best use and for troubleshooting of the styling for my html frameworks, the user input form on index.html, and the card on blog.html. For more information please see the following links:
 
-If you followed tutorials, include links to those here as well.
+    https://getbootstrap.com/docs/5.3/layout/containers/
+    https://getbootstrap.com/docs/5.3/forms/overview/#overview
+    https://getbootstrap.com/docs/5.3/components/card/
+
+I reviewed the following MDN web docs for best use of the JavaScript methods, functions, and syntax needed for my form.js and blog.js:
+
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+    https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+    https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+    https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+    https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+    https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+
+I used Creative Dark Mode Switch by UI in this project.
 
 ## License
 

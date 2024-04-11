@@ -49,7 +49,6 @@ body.dark {
 .rightButton {
   align-items: right;
   margin-top: 5rem;
-  /* margin-left: 1rem; */
 }
 
 .btn {
@@ -147,7 +146,7 @@ h5 {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: 0.3em solid white;
+  border: 0.2em solid white;
   background: #27173a;
   color: #af9cc4;
   height: auto;

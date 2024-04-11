@@ -26,9 +26,13 @@ When a user opens the landing page, they find a user interface form to complete 
 Please click the links below for screen shots of these pages:
 
     ```md
-    ![alt text](assets/images/landingPage.jpg)
-    ![alt text](assets/images/blogPageLightMode.jpg)
-    ![alt text](assets/images/blogPageDarkMode.jpg)
+    ![Landing Page Form screenshot](assets/images/landingPage.jpg)
+    ```
+    ```md
+    ![Blog Page Light Mode screenshot](assets/images/blogPageLightMode.jpg)
+    ```
+    ```md
+    ![Blog Page Dark Mode screenshot](assets/images/blogPageDarkMode.jpg)
     ```
 
 ## Credits

@@ -146,7 +146,7 @@ h5 {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  border: 0.2em solid white;
+  border: 0.15em solid white;
   background: #27173a;
   color: #af9cc4;
   height: auto;
@@ -157,7 +157,7 @@ h5 {
 
 h4 {
   color: #af9cc4;
-  margin-top: 2 rem;
+  margin-top: 2rem;
 }
 
 .lead {

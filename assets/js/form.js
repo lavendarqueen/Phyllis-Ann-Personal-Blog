@@ -35,14 +35,6 @@ blogPostButton.addEventListener("click", function (event) {
       //newBlogPost.userName = document.querySelector("#userName").value = "";
       window.location.href = "blog.html";
 
-
-    // for (let i = 0; i < blogPostArr.length; i++) {
-    //   const newBlogPost = blogPostArr[i];
-
-
-    //   console.log(blogPostArr);
-
-    // }
   }
 });
 

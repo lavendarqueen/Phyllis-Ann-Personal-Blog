@@ -29,7 +29,7 @@ function addElement() {
   // const newContent = document.createTextNode();
 
   // add the text node to the newly created div
-  newDiv.appendChild(newContent);
+  postArea.appendChild(newDiv);
 
   // add the newly created element and its content into the DOM
   const currentDiv = document.createElement("div");

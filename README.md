@@ -2,12 +2,7 @@
 
 ## Description
 
-A personal blog page with light/dark mode and a back button that allows users to read and write blog posts through a user interface that collects the user's username, blog post title and their blog posts.
-
-- Motivation: I felt that type of page is a useful tool for communicating ideas and networking with others with similar interests.
-- Why did you build this project? Building this blog page was an educational experience, both in learning how to code such a document, but also in learning about the benefits of having a blog page.
-- What problem does it solve? My personal blog can connect me with other web developers, who I can learn from and consult when I have a problem I'm uncertain of the resolution.
-- What did you learn? I learned about blogging, as well as how to write JavaScript functions to insert html code into a document when a user posts a comment, and to manage styling on a Bootstrap framework.
+A personal blog page with light/dark mode and a back button that allows users to read and write blog posts through a user interface that collects the user's username, blog post title and their blog posts. I was motivated to build a useful tool for communicating ideas and networking with others with similar interests. My personal blog can connect me with other web developers, who I can learn from, consult when I need to solve a problem, or perhaps help another with a problem of their own. Building this blog page was an educational experience, both in learning how to code such a document, but also in learning about the benefits of having a blog page. I learned about blogging, as well as how to write JavaScript functions to insert html code into a document when a user posts a comment, and to manage styling on a Bootstrap framework.
 
 ## Installation
 
@@ -23,17 +18,11 @@ When a user opens the landing page, they find a user interface form to complete 
 
 4. If you would like to leave another comment after reviewing the existing blog posts, click the back button at the top of the page and repeat these instuctions.
 
-Please click the links below for screen shots of these pages:
+![Landing Page Form screenshot](assets/images/Screenshot-PersonalBlog.png)
 
-    ```md
-    ![Landing Page Form screenshot](assets/images/landingPage.jpg)
-    ```
-    ```md
-    ![Blog Page Light Mode screenshot](assets/images/blogPageLightMode.jpg)
-    ```
-    ```md
-    ![Blog Page Dark Mode screenshot](assets/images/blogPageDarkMode.jpg)
-    ```
+![Blog Page Light Mode screenshot](assets/images/Screenshot-LightMode.png)
+
+![Blog Page Dark Mode screenshot](assets/images/Screenshot-DarkMode.png)
 
 ## Credits
 
